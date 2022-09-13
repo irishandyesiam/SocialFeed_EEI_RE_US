@@ -1,28 +1,21 @@
 
 const Post = (props) => {
-    return ( 
+    return (
         <table>
             <thead>
-            <tr>
+                <tr>
                 <th>User's Name</th>
                 <th>Post</th>
-            </tr>
+                <th>Like</th>
+                <th>Dislike</th>
+                </tr>
             </thead>
             <tbody>
-            {props.xyzposts.map((post) => {
-                return (
-                <tr>
-                    <td>{post.userName}</td>
-                    <td>{post.comment}</td>
-                </tr>
-                )
-            })}
-            <tr>
-                <td></td>
-            </tr>
+                <tr>name filled by props from Display Post</tr>
+                <tr>post filled by props from Display Post</tr>
             </tbody>
         </table>
-     );
+    );
 }
- 
+
 export default Post;

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import Post from './Components/Post/Post'
+import Post from './Components/Post/Post';
+import DisplayPost from './Components/DisplayPost/DisplayPost';
+import CreatePost from './Components/CreatePost/CreatePost';
 
 function App() {
 
@@ -7,7 +9,9 @@ function App() {
 
   return (
     <div>
-      <Post xyzposts={posts}/>
+      <Post />
+      {/* <DisplayPost xyzposts={posts}/> */}
+      <CreatePost />
     </div>
   );
 }
