@@ -1,5 +1,8 @@
 
 const Post = (props) => {
+
+    console.log(props.xyzposts)
+
     return (
         <table>
             <thead>
@@ -7,12 +10,14 @@ const Post = (props) => {
                 <th>User's Name</th>
                 <th>Post</th>
                 <th>Like</th>
-                <th>Dislike</th>
+                <th>Dislike</th>    
                 </tr>
             </thead>
             <tbody>
-                <tr>name filled by props from Display Post</tr>
-                <tr>post filled by props from Display Post</tr>
+                <tr>
+                    <td>{props.xyzposts.userName}</td>
+                    <td>{props.xyzposts.comment}</td>
+                </tr>
             </tbody>
         </table>
     );

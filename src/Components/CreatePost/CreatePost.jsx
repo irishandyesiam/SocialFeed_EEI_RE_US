@@ -10,10 +10,11 @@ const CreatePost = (props) => {
     function handleSubmit(event) {
         event.preventDefault();
         let newPost = {
-            name: name,
-            post: post,
+            userName: name,
+            comment: post,
         };
         console.log(newPost);
+        props.addNewPostProperty(newPost);
     }
 
     return(
