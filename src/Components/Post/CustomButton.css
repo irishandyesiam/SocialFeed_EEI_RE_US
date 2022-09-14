@@ -1,0 +1,16 @@
+.like{
+    background-color: gray;
+}
+
+.liked{
+    background-color: green;
+}
+
+
+.dislike{
+    background-color: gray;
+}
+
+.disliked{
+    background-color: red;
+}
