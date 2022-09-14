@@ -9,8 +9,8 @@ const Post = (props) => {
                 <tr>
                 <th>User's Name</th>
                 <th>Post</th>
-                <th>Like</th>
-                <th>Dislike</th>    
+                <button type="button">Like</button>
+                <button type="button">Dislike</button> 
                 </tr>
             </thead>
             <tbody>
